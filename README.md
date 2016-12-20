@@ -46,7 +46,7 @@ Request  ==(selector)==>  Tag ==(scheduler)==>  Upstream
 | ------------- |:-------------:| :-----|
 | id | inter | 自动增长 |
 | name | string | 选择器名称 | 
-| from | string | 0代表从本地加载(load)，1代表从数据库加载(loadstring) | 
+| from | tiny | 0代表从本地加载(load)，1代表从数据库加载(loadstring) |
 | function | string | lua code | 
 | update_time | timestamp | on update CURRENT_TIMESTAMP |
 
@@ -69,7 +69,7 @@ end
 | ------------- |:-------------:| :-----|
 | id | inter | 自动增长 |
 | name | string | 调度器名称 | 
-| from | string | 0代表从本地加载(load)，1代表从数据库加载(loadstring) | 
+| from | tiny | 0代表从本地加载(load)，1代表从数据库加载(loadstring) |
 | function | string | lua code |
 | update_time | timestamp | on update CURRENT_TIMESTAMP |
 
