@@ -1,7 +1,3 @@
-# openresty-abtest
-# 灰度发布
-亦可称为ABTesting。
-
 ## 功能简介
 本功能的实现，严重依赖nginx的upstream模块，同时使用Lua代码动态修改URI。
 
